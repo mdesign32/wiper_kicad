@@ -1,0 +1,8 @@
+# Файлы KiCad хранятся как есть, без преобразования окончаний строк
+*.kicad_pro -text
+*.kicad_sch -text
+*.kicad_pcb -text
+*.kicad_sym -text
+*.kicad_mod -text
+*.kicad_dru -text
+*.kicad_wks -text

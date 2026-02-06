@@ -1,0 +1,18 @@
+# KiCad: резервные копии и временные файлы
+*-backups/
+*.bak
+*-bak
+_autosave-*
+*.lck
+~*.lck
+\#auto_saved_files#
+fp-info-cache
+*.kicad_prl
+
+# Производственные файлы (прикладываются к релизам на GitHub)
+gerbers*/
+production/
+*.gbr
+*.gbrjob
+*.drl
+*.zip
