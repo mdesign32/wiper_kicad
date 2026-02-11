@@ -1322,6 +1322,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -4849,7 +5013,7 @@
 		)
 		(uuid "dc6bf6d2-b584-4ae0-93b9-d044e465e123")
 	)
-	(text "WIPER  2.1"
+	(text "WIPER  2.2"
 		(exclude_from_sim no)
 		(at 222.504 174.498 0)
 		(effects
@@ -4958,6 +5122,12 @@
 		(uuid "65a1cac8-79cf-40fa-a3cc-e5342bde4d91")
 	)
 	(junction
+		(at 49.53 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66cae2f3-7702-498b-ac8a-b401df939f66")
+	)
+	(junction
 		(at 165.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5004,6 +5174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a277d9ab-3ae0-4791-bd20-d71866fd8fcc")
+	)
+	(junction
+		(at 49.53 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f886de-9911-4c36-86f7-e2f70ec517a7")
 	)
 	(junction
 		(at 234.95 50.8)
@@ -5340,6 +5516,16 @@
 			(type default)
 		)
 		(uuid "1a72636f-64d8-4956-ad60-8ff2b982602d")
+	)
+	(wire
+		(pts
+			(xy 49.53 104.14) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5a98ae-74b8-4524-a0e9-8458b9be8a1b")
 	)
 	(wire
 		(pts
@@ -5873,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 101.6) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5600c5cf-d3bd-426c-b484-7c0fed5fa40f")
+	)
+	(wire
+		(pts
 			(xy 57.15 31.75) (xy 57.15 34.29)
 		)
 		(stroke
@@ -6113,6 +6309,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 91.44) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eeab837-1e9f-4172-a61d-fb79b93870b2")
+	)
+	(wire
+		(pts
 			(xy 81.28 163.83) (xy 81.28 166.37)
 		)
 		(stroke
@@ -6300,6 +6506,16 @@
 			(type default)
 		)
 		(uuid "7d0ced0a-c80b-4f4b-97bb-855783639de3")
+	)
+	(wire
+		(pts
+			(xy 43.18 104.14) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db81b16-2d33-4127-ae49-cadaeb6888fa")
 	)
 	(wire
 		(pts
@@ -6763,6 +6979,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 99.06) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac00902e-c9ad-401e-8554-1b9198a18f01")
+	)
+	(wire
+		(pts
 			(xy 64.77 74.93) (xy 82.55 74.93)
 		)
 		(stroke
@@ -6800,6 +7026,16 @@
 			(type default)
 		)
 		(uuid "b70da4d0-022b-47a0-b495-c371c1d2aed7")
+	)
+	(wire
+		(pts
+			(xy 49.53 90.17) (xy 49.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b782202f-c05e-48f5-9997-bcf478f82a90")
 	)
 	(wire
 		(pts
@@ -7063,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 91.44) (xy 49.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6c8f4e-66c8-42fe-ba59-110327309311")
+	)
+	(wire
+		(pts
 			(xy 67.31 142.24) (xy 67.31 143.51)
 		)
 		(stroke
@@ -7120,16 +7366,6 @@
 			(type default)
 		)
 		(uuid "d36c8fcb-178e-416f-8edd-26f7d95a5f73")
-	)
-	(wire
-		(pts
-			(xy 78.74 97.79) (xy 82.55 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c86d1d-7af8-4f92-a6f6-9f1d54b9541d")
 	)
 	(wire
 		(pts
@@ -7203,6 +7439,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 93.98) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5568e0-7696-4cf6-bce8-349af2afea79")
+	)
+	(wire
+		(pts
 			(xy 256.54 49.53) (xy 256.54 67.31)
 		)
 		(stroke
@@ -7260,6 +7506,16 @@
 			(type default)
 		)
 		(uuid "e6abadef-c8bc-4c37-baff-3540763a3596")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e716526d-e2ab-41bc-875f-e6fc5e92e03b")
 	)
 	(wire
 		(pts
@@ -8829,6 +9085,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 49.53 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28291817-b4ed-4db1-ad3e-bc450a1f74e2")
+		(property "Reference" "RV1"
+			(at 55.372 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 55.372 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f96274ce-9aee-4ed9-88a7-ef4bd852fbc5")
+		)
+		(pin "3"
+			(uuid "96c91fde-69f8-4654-be0e-064f6d0e7aa4")
+		)
+		(pin "1"
+			(uuid "d77c2e67-d872-44da-904b-4a46e0c9610a")
+		)
+		(instances
+			(project ""
+				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT2222A")
 		(at 162.56 55.88 0)
 		(unit 1)
@@ -9645,74 +9973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 78.74 97.79 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42706894-af4f-4e49-b906-aef6f91773fc")
-		(property "Reference" "TP1"
-			(at 73.66 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 69.088 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e201e160-51cd-492b-b62a-31cfc741b460")
-		)
-		(instances
-			(project "wiper"
-				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 134.62 96.52 0)
 		(unit 1)
@@ -10395,6 +10655,72 @@
 			(project ""
 				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c665dba-c016-44cd-9d5a-62670854a0b9")
+		(property "Reference" "#PWR028"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2dc9625-f3e3-4660-9309-ba1e1625de56")
+		)
+		(instances
+			(project "wiper"
+				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12863,6 +13189,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c82c88-d600-4258-b320-2913a716ab45")
+		(property "Reference" "C10"
+			(at 38.1 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 35.306 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f1686f-503f-45be-a8e2-4bfa1792faea")
+		)
+		(pin "2"
+			(uuid "8ac19cc2-38d1-4398-9fb9-2987ef1c0304")
+		)
+		(instances
+			(project "wiper"
+				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 67.31 160.02 0)
 		(unit 1)
@@ -14490,6 +14885,73 @@
 			(project "wiper"
 				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 49.53 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6402967-d122-4e43-b75a-18442f6ac618")
+		(property "Reference" "#PWR029"
+			(at 49.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 49.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e383699-ba2d-4da1-973d-444eb07eb08a")
+		)
+		(instances
+			(project "wiper"
+				(path "/1f426a63-dca6-4add-a4aa-c32181540289"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
