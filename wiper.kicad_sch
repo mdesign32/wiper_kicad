@@ -8697,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148W"
 			(at 162.56 105.4099 90)
 			(effects
 				(font
@@ -10392,7 +10392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148W"
 			(at 222.25 106.6799 90)
 			(effects
 				(font
@@ -10480,7 +10480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148W"
 			(at 228.6 44.4499 90)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -11395,7 +11395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -11776,7 +11776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -11837,7 +11837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148W"
 			(at 162.56 43.1799 90)
 			(effects
 				(font
@@ -12362,7 +12362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -12499,7 +12499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -13343,7 +13343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 110.49 0)
 			(effects
 				(font
@@ -13412,7 +13412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -14011,7 +14011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -15968,7 +15968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -16037,7 +16037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 59.69 58.42 0)
 			(effects
 				(font
