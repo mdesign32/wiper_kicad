@@ -1,0 +1,17 @@
+ERC report (2026-10-16T17:23:24+0300, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1150 mils, 1150 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1000 mils, 1600 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2000 mils, 1250 mils): Symbol U1 Pin 1 [VI, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'ATmega48-20A' doesn't match copy in library 'MCU_Microchip_ATmega'
+    ; warning
+    @(3850 mils, 3600 mils): Symbol U5 [ATmega48-20A]
+
+ ** ERC messages: 4  Errors 3  Warnings 1
